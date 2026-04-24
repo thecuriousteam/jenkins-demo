@@ -25,6 +25,7 @@ pipeline {
                echo "Creating file"
                touch build/output.txt
                echo "Build Completed Succesfully" > build/output.txt
+               echo "Build number: $BUILD_NUMBER" > build/output.txt
                echo "Writing inside build directory completed"
                '''
             }
