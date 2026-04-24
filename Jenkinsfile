@@ -14,7 +14,7 @@ pipeline {
                sh '''
                echo "Building Project"
                echo "Creating build directory"
-               mkdir build
+               mkdir -p build
                '''
             }
         }
